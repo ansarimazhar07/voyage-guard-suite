@@ -7,36 +7,36 @@ import TouristLayout from "@/components/layouts/TouristLayout";
 
 const TouristDashboard = () => {
   const touristData = {
-    name: "Sarah Johnson",
+    name: "DAHAA ",
     id: "TID-2024-001",
-    passport: "US123456789",
-    phone: "+1 (555) 123-4567",
+    passport: "U123456789",
+    phone: "+91 1234567890",
     safetyScore: 92,
-    location: "Central Plaza, Barcelona",
+    location: "MEXICO",
     emergencyContact: {
-      name: "John Johnson",
+      name: "John Durairaj",
       relation: "Emergency Contact",
-      phone: "+1 (555) 987-6543",
+      phone: "+91 9876543210",
     },
   };
 
   const itinerary = [
     {
       time: "09:00",
-      activity: "Sagrada Familia Visit",
-      location: "Carrer de Mallorca, 401",
+      activity: "breakfast",
+      location: "Grape Embassy, 987",
       status: "completed",
     },
     {
       time: "14:00",
-      activity: "Lunch at La Boqueria",
-      location: "La Rambla, 91",
+      activity: "waterfall watching",
+      location: "Dugarwadi waterfall, 91",
       status: "current",
     },
     {
       time: "16:30",
-      activity: "Park Güell Tour",
-      location: "Carrer d'Olot, s/n",
+      activity: "lunch",
+      location: "joey pizza, s/n",
       status: "upcoming",
     },
   ];
@@ -79,7 +79,7 @@ const TouristDashboard = () => {
             <CardContent className="space-y-4">
               <div className="flex items-center gap-4">
                 <Avatar className="w-16 h-16">
-                  <AvatarImage src="/placeholder.svg" />
+                  <AvatarImage src="/easy.jpg" />
                   <AvatarFallback className="bg-primary text-primary-foreground text-lg">
                     {touristData.name.split(' ').map(n => n[0]).join('')}
                   </AvatarFallback>
@@ -210,8 +210,8 @@ const TouristDashboard = () => {
                   Emergency Panic Button
                 </Button>
                 <div className="grid grid-cols-2 gap-2">
-                  <Button variant="outline" size="sm">Police: 112</Button>
-                  <Button variant="outline" size="sm">Medical: 061</Button>
+                  <Button variant="outline" size="sm">Police: 100</Button>
+                  <Button variant="outline" size="sm">Medical: 104</Button>
                 </div>
               </div>
             </CardContent>

@@ -48,11 +48,14 @@ const Login = () => {
       <div className="w-full max-w-md">
         <Card className="shadow-large border-0">
           <CardHeader className="text-center pb-6">
-            <div className="mx-auto w-12 h-12 bg-primary rounded-full flex items-center justify-center mb-4">
-              <Shield className="w-6 h-6 text-primary-foreground" />
-            </div>
+            {/* <div className="mx-auto w-12 h-12 bg-primary rounded-full flex items-center justify-center mb-4"> */}
+              {/* <Shield className="w-6 h-6 text-primary-foreground" /> */}
+            {/* </div> */}
+            <img className="mx-auto w-12 h-12 bg-primary rounded-full flex items-center justify-center mb-4" src="\tour.png">
+            
+            </img>
             <CardTitle className="text-2xl font-bold bg-gradient-to-r from-primary to-success bg-clip-text text-transparent">
-              SafeTour Portal
+              TouraSafe Portal
             </CardTitle>
             <CardDescription className="text-muted-foreground">
               Secure access for authorities and tourists

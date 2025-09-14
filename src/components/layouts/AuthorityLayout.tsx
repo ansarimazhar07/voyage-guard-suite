@@ -37,7 +37,7 @@ const AuthorityLayout = ({ children }: AuthorityLayoutProps) => {
               <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
                 <Shield className="w-4 h-4 text-primary-foreground" />
               </div>
-              <span className="font-semibold text-foreground">SafeTour Authority</span>
+              <span className="font-semibold text-foreground">TouraSafe Authority</span>
             </div>
           </div>
           
@@ -70,7 +70,7 @@ const AuthorityLayout = ({ children }: AuthorityLayoutProps) => {
               <DropdownMenuTrigger asChild>
                 <Button variant="ghost" className="relative h-8 w-8 rounded-full">
                   <Avatar className="h-8 w-8">
-                    <AvatarImage src="/placeholder.svg" />
+                    <AvatarImage src="/hard.jpg" />
                     <AvatarFallback className="bg-primary text-primary-foreground">A</AvatarFallback>
                   </Avatar>
                 </Button>

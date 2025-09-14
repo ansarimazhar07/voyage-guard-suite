@@ -32,28 +32,53 @@ const AuthorityDashboard = () => {
   const recentAlerts = [
     {
       id: "ALT-001",
-      tourist: "Sarah Johnson",
+      tourist: "MAZHAR ANSARI",
       type: "Panic Button",
-      location: "Central Plaza",
+      location: "NASHIK ROAD",
       time: "2 min ago",
       status: "urgent",
     },
     {
       id: "ALT-002",
-      tourist: "Mike Chen",
+      tourist: "OM BHARASKAR",
       type: "Route Deviation",
-      location: "Old Town",
+      location: "MAKHMALABAD",
       time: "15 min ago",
       status: "medium",
     },
     {
       id: "ALT-003",
-      tourist: "Emma Wilson",
+      tourist: "DURGESH BAGUL",
       type: "Inactivity Alert",
-      location: "Market Square",
+      location: "MHASRUL",
       time: "1 hour ago",
       status: "low",
     },
+     {
+      id: "ALT-003",
+      tourist: "GANESH BAGUL",
+      type: "Inactivity Alert",
+      location: "MUMBAI NAKA",
+      time: "5 hour ago",
+      status: "low",
+    },
+     {
+      id: "ALT-003",
+      tourist: "SHRUTI BORSE",
+      type: "Inactivity Alert",
+      location: "NASHIK",
+      time: "2 hour ago",
+      status: "low",
+    },
+     {
+      id: "ALT-003",
+      tourist: "SHRUTIKA BHAVAR",
+      type: "Inactivity Alert",
+      location: "NASHIK",
+      time: "2 hour ago",
+      status: "low",
+    },
+     
   ];
 
   const getStatusColor = (status: string) => {

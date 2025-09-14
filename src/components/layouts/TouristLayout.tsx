@@ -34,7 +34,7 @@ const TouristLayout = ({ children }: TouristLayoutProps) => {
               <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
                 <Users className="w-4 h-4 text-primary-foreground" />
               </div>
-              <span className="font-semibold text-foreground">SafeTour</span>
+              <span className="font-semibold text-foreground">TouraSafe</span>
             </div>
             
             <nav className="hidden md:flex items-center gap-6">
@@ -56,7 +56,7 @@ const TouristLayout = ({ children }: TouristLayoutProps) => {
             <DropdownMenuTrigger asChild>
               <Button variant="ghost" className="relative h-8 w-8 rounded-full">
                 <Avatar className="h-8 w-8">
-                  <AvatarImage src="/placeholder.svg" />
+                  <AvatarImage src="/easy.jpg" />
                   <AvatarFallback className="bg-primary text-primary-foreground">SJ</AvatarFallback>
                 </Avatar>
               </Button>
